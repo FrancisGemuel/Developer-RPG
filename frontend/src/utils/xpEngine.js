@@ -13,7 +13,7 @@ export function calculateLevel(xp) {
 
     return level;
 }
-
+//GET USER PROGRESS
 export function getProgress(xp, level) {
     const currentLevelXP = (level - 1) * 100;
     const nextLevelXP = level * 100;
