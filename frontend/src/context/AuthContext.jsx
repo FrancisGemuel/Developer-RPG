@@ -26,7 +26,7 @@ export function AuthProvider({ children }) {
             setProfile(data);
         }
     };
-
+    // session
     useEffect(() => {
         supabase.auth.getSession().then(async ({ data }) => {
             const sessionUser = data.session?.user ?? null;
