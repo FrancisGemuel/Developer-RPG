@@ -39,7 +39,7 @@ export function AuthProvider({ children }) {
 
             setLoading(false);
         });
-        // 
+        // supabase auth
         const { data: listener } = supabase.auth.onAuthStateChange(
             async (_event, session) => {
                 const sessionUser = session?.user ?? null;
