@@ -39,7 +39,7 @@ export function AuthProvider({ children }) {
 
             setLoading(false);
         });
-
+        // 
         const { data: listener } = supabase.auth.onAuthStateChange(
             async (_event, session) => {
                 const sessionUser = session?.user ?? null;
@@ -53,7 +53,7 @@ export function AuthProvider({ children }) {
                 }
             }
         );
-
+        // subscription. idk
         return () => listener.subscription.unsubscribe();
     }, []);
 
