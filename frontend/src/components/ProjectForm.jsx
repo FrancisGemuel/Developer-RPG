@@ -9,7 +9,7 @@ export default function ProjectForm({ onProjectAdded }) {
     const [description, setDescription] = useState("");
     const [github, setGithub] = useState("");
     const [loading, setLoading] = useState(false);
-
+    //submit
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
