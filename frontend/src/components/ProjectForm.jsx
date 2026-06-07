@@ -26,7 +26,7 @@ export default function ProjectForm({ onProjectAdded }) {
         setGithub("");
 
         setLoading(false);
-
+        //rethink
         if (onProjectAdded) onProjectAdded();
     };
 
