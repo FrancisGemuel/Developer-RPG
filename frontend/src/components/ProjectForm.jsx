@@ -43,7 +43,7 @@ export default function ProjectForm({ onProjectAdded }) {
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
             />
-
+            //description
             <textarea
                 className="w-full p-2 mb-2 bg-slate-700"
                 placeholder="Description"
