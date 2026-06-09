@@ -50,7 +50,7 @@ export default function ProjectForm({ onProjectAdded }) {
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
             />
-
+            // github_url
             <input
                 className="w-full p-2 mb-2 bg-slate-700"
                 placeholder="GitHub URL"
