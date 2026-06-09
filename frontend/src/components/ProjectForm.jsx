@@ -36,7 +36,7 @@ export default function ProjectForm({ onProjectAdded }) {
             className="bg-slate-800 p-4 rounded mt-6"
         >
             <h2 className="text-xl mb-4">Add Project Quest</h2>
-
+            //Project
             <input
                 className="w-full p-2 mb-2 bg-slate-700"
                 placeholder="Project Title"
