@@ -11,7 +11,7 @@ export default function Register() {
 
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
-
+    //auth register
     const handleRegister = async (e) => {
         e.preventDefault();
 
