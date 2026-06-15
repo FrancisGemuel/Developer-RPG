@@ -1,7 +1,7 @@
 import { supabase } from "./supabase";
 import { addXP } from "./xpService";
 
-// CREATE PROJECT (QUEST COMPLETION) // RETHINK
+// CREATE PROJECT (QUEST COMPLETION) // REfactor?
 export async function createProject(userId, project) {
     // 1. Insert project into DB
     const { data, error } = await supabase
