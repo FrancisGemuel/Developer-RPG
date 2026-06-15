@@ -1,5 +1,5 @@
 import { supabase } from "./supabase";
-
+// should be in the backend
 // GET PROFILE
 export async function getProfile(userId) {
     const { data, error } = await supabase
