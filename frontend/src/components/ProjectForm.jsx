@@ -13,7 +13,7 @@ export default function ProjectForm({ onProjectAdded }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-
+        //create
         await createProject(user.id, {
             title,
             description,
