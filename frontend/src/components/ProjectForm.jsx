@@ -30,6 +30,7 @@ export default function ProjectForm({ onProjectAdded }) {
         if (onProjectAdded) onProjectAdded();
     };
 
+    // refactor add more
     return (
         <form
             onSubmit={handleSubmit}
