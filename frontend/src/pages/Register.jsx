@@ -48,7 +48,7 @@ export default function Register() {
 
         navigate("/");
     };
-
+    //reDesign
     return (
         <div className="min-h-screen flex justify-center items-center">
             <form
