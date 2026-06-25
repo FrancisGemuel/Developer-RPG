@@ -22,7 +22,7 @@ export default function Register() {
             email,
             password,
         });
-
+        //handle error
         if (error) {
             setLoading(false);
             setError(error.message);
