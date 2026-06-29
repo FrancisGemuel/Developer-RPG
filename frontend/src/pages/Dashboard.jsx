@@ -7,7 +7,7 @@ import ProjectForm from "../components/ProjectForm";
 export default function Dashboard() {
     const { user, profile } = useAuth();
     const [projects, setProjects] = useState([]);
-
+    //loadprojects
     const loadProjects = async () => {
         if (!user) return;
         const { data } = await getProjects(user.id);
