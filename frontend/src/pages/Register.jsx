@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 export default function Register() {
     const navigate = useNavigate();
-    //rethink
+    //email verification?
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
