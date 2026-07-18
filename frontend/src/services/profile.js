@@ -11,7 +11,7 @@ export async function getProfile(userId) {
     return { data, error };
 }
 
-// CREATE PROFILE (safe fallback) // rethink?
+// CREATE PROFILE (safe fallback)
 export async function createProfile(user) {
     const { data, error } = await supabase
         .from("profiles")
