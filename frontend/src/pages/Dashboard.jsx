@@ -21,7 +21,7 @@ export default function Dashboard() {
     const handleGainXP = async () => {
         if (!user) return;
         await addXP(user.id, 50);
-        window.location.reload(); // temporary
+        window.location.reload();
     };
     //reFactor
     return (
