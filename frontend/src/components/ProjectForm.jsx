@@ -20,7 +20,7 @@ export default function ProjectForm({ onProjectAdded }) {
             github_url: github,
             xp_reward: 100,
         });
-        ///reset?
+
         setTitle("");
         setDescription("");
         setGithub("");
