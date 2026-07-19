@@ -28,7 +28,7 @@ export default function Login() {
             setError(error.message);
             return;
         }
-        //refactor nav maybe?
+
         navigate("/dashboard");
     };
     //redesign
