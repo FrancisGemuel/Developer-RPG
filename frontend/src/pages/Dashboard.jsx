@@ -23,7 +23,7 @@ export default function Dashboard() {
         await addXP(user.id, 50);
         window.location.reload();
     };
-    //reFactor
+
     return (
         <div className="p-8">
             <h1 className="text-4xl font-bold">
