@@ -8,7 +8,7 @@ export default function Register() {
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    //refACTOR OR REPLACE
+    //AccSet
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     //auth register
