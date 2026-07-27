@@ -2,6 +2,7 @@ import { useState } from "react";
 import { supabase } from "../services/supabase";
 import { useNavigate, Link } from "react-router-dom";
 
+//transfer to backend some functions
 export default function Register() {
     const navigate = useNavigate();
     //email verification?
