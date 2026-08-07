@@ -18,7 +18,7 @@ export async function addXP(userId, amount) {
     // 3. Recalculate level
     const newLevel = calculateLevel(newXP);
 
-    // 4. Save back to DB
+    // 4. Save back to DB //backend
     const { data, error } = await supabase
         .from("profiles")
         .update({
