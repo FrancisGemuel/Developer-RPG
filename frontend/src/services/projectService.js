@@ -18,7 +18,7 @@ export async function createProject(userId, project) {
 
     if (error) return { error };
 
-    // 2. Give XP reward // OR SOMETHING
+    // 2. Give XP reward
     await addXP(userId, project.xp_reward || 100);
 
     return { data };
