@@ -1,7 +1,7 @@
 export function getXpForLevel(level) {
     return level * 100;
 }
-//calcLevel
+//calc Level
 export function calculateLevel(xp) {
     let level = 1;
     let required = 100;
