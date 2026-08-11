@@ -31,7 +31,7 @@ export default function Login() {
 
         navigate("/dashboard");
     };
-    //redesign
+
     return (
         <div className="min-h-screen flex justify-center items-center">
             <form
