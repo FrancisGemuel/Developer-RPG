@@ -1,1 +1,1 @@
-//PublicProfile >> public repos for public visibility
+//PublicProfile >> public repos
