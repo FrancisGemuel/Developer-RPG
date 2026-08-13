@@ -1,4 +1,5 @@
 import { supabase } from "./supabase";
+//(follow MVC)
 // should be in the backend
 // GET PROFILE
 export async function getProfile(userId) {
