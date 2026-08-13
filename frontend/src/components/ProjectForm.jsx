@@ -26,11 +26,11 @@ export default function ProjectForm({ onProjectAdded }) {
         setGithub("");
 
         setLoading(false);
-        //rethink
+
         if (onProjectAdded) onProjectAdded();
     };
 
-    // refactor add more
+    //add more
     return (
         <form
             onSubmit={handleSubmit}
