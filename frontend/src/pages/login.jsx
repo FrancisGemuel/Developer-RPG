@@ -10,7 +10,8 @@ export default function Login() {
 
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
-    //Handle Login
+
+    //Handle Login //refactor
     const handleLogin = async (e) => {
         e.preventDefault();
 
