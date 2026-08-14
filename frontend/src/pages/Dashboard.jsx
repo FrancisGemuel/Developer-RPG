@@ -13,7 +13,7 @@ export default function Dashboard() {
         const { data } = await getProjects(user.id);
         setProjects(data || []);
     };
-    //load projects
+    //refresh
     useEffect(() => {
         loadProjects();
     }, [user]);
