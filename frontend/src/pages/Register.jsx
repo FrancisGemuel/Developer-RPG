@@ -5,7 +5,8 @@ import { useNavigate, Link } from "react-router-dom";
 //transfer to backend some functions
 export default function Register() {
     const navigate = useNavigate();
-    //email verification?
+    //email verification
+
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -49,7 +50,7 @@ export default function Register() {
 
         navigate("/");
     };
-    //reDesign
+    //refactor
     return (
         <div className="min-h-screen flex justify-center items-center">
             <form
