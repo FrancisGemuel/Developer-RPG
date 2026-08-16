@@ -30,7 +30,7 @@ export default function Dashboard() {
                 Developer RPG
             </h1>
 
-            {/* USER STATS */}
+            {/* USER STATS /prof*/}
             <div className="mt-6 bg-slate-800 p-6 rounded">
                 <h2 className="text-xl">
                     Welcome {profile?.username}
