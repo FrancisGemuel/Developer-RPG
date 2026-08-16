@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 export default function Login() {
     const navigate = useNavigate();
-    //check context
+    //check context //LOGOIN
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
