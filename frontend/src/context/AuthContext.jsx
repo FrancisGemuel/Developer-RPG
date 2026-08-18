@@ -3,7 +3,7 @@ import { supabase } from "../services/supabase";
 import { getProfile, createProfile } from "../services/profile";
 
 const AuthContext = createContext();
-//supabase auth
+//supabase auth // should be in backend
 export function AuthProvider({ children }) {
     const [user, setUser] = useState(null);
     const [profile, setProfile] = useState(null);
