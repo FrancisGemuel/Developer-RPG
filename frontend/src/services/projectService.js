@@ -3,7 +3,7 @@ import { addXP } from "./xpService";
 
 // CREATE PROJECT/ITEM (QUEST COMPLETION)
 export async function createProject(userId, project) {
-    // 1. Insert project into DB
+    // first step. Insert project into DB
     const { data, error } = await supabase
         .from("projects")
         .insert({
@@ -18,7 +18,7 @@ export async function createProject(userId, project) {
 
     if (error) return { error };
 
-    // 2. Give XP reward for level
+    // second step. Give XP reward for level
     await addXP(userId, project.xp_reward || 100);
 
     return { data };
