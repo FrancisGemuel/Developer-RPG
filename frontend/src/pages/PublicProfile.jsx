@@ -1,1 +1,1 @@
-//PublicProfile >> public repos
+//PublicProfile >> public repositories
