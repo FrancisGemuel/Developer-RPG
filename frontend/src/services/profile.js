@@ -12,7 +12,7 @@ export async function getProfile(userId) {
     return { data, error };
 }
 
-// CREATE PROFILE (with safe fallback)
+// CREATE PROFILE (with safe fallback) add validations
 export async function createProfile(user) {
     const { data, error } = await supabase
         .from("profiles")
