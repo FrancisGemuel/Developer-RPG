@@ -24,7 +24,7 @@ export async function createProject(userId, project) {
     return { data };
 }
 
-// GET USER PROJECTS 
+// GET USER PROJECTS // addd project per level
 export async function getProjects(userId) {
     const { data, error } = await supabase
         .from("projects")
