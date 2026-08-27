@@ -9,7 +9,7 @@ export async function addXP(userId, amount) {
         .select("*")
         .eq("id", userId)
         .single();
-
+    // if user profile not exist
     if (!profile) return;
 
     // 2. Update XP
