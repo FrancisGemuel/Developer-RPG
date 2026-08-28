@@ -32,7 +32,7 @@ export default function Login() {
 
         navigate("/dashboard");
     };
-
+    //add tooltips
     return (
         <div className="min-h-screen flex justify-center items-center">
             <form
