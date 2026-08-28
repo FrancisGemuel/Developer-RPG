@@ -50,7 +50,7 @@ export default function Register() {
 
         navigate("/");
     };
-
+    //add tooltips
     return (
         <div className="min-h-screen flex justify-center items-center">
             <form
