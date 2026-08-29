@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext";
 
 export default function ProjectForm({ onProjectAdded }) {
     const { user } = useAuth();
-    //context
+    //context input
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [github, setGithub] = useState("");
