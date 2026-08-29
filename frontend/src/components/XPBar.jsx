@@ -1,1 +1,1 @@
-//XP modal
+//XP modal template
