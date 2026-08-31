@@ -30,7 +30,7 @@ export default function Register() {
             setError(error.message);
             return;
         }
-        //not safe
+        //optimize
         if (data.user) {
             const { error: profileError } = await supabase
                 .from("profiles")
