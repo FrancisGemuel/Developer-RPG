@@ -1,1 +1,1 @@
-//skeleton temp loading
+//skeleton template loading
